@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+html,
+body {
+  height: 100dvh;
+  overflow-x: hidden;
+  /* background-color: #000000; */
+}
+
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.027);
+  backdrop-filter: blur(50px);
+  /* transition: background-color 0.3s ease; */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
